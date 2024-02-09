@@ -20,6 +20,9 @@ export default defineManifest(async (env) => ({
     default_title: "popup",
     default_popup: "src/pages/popup/index.html",
   },
+  chrome_url_overrides: {
+    newtab: "src/pages/newtab/index.html",
+  },
   icons: {
     "16": "e_image.png",
     "48": "e_image.png",
